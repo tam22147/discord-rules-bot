@@ -29,10 +29,10 @@ client.on('messageCreate', async message => {
 
       const embed = new MessageEmbed()
         .setColor('#f8ca3d')
-        .setThumbnail('')
+        .setThumbnail('https://cdn.discordapp.com/avatars/1275572396471877693/a_705b3043ae240517c08e032f2384f8ca.gif?size=1024')
         .setTitle('قوانين السيرفر')
         .setDescription('**الرجاء اختيار احد القوانين لقرائته من قائمة الاختيارات تحت**')
-        .setImage('')
+        .setImage('https://cdn.discordapp.com/banners/1275572396471877693/a_91d2e7a626a58e3aa37ad18a79130470.gif?size=4096')
         .setFooter({ text: 'Rules Bot' })
         .setTimestamp();
 
